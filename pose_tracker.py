@@ -6,7 +6,7 @@ pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 cap = cv2.VideoCapture(0)
 
 cv2.namedWindow("Mesh Avatar", cv2.WINDOW_NORMAL)
-cv2.moveWindow("Mesh Avatar", 0, 0)  # pencereyi 1. ekranın sol üstüne taşı
+cv2.moveWindow("Mesh Avatar", 0, 0)
 cv2.setWindowProperty("Mesh Avatar", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
 prev_positions = {}
